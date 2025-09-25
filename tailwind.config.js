@@ -5,13 +5,13 @@ module.exports = {
   presets: [require("nativewind/preset")],
   theme: {
     extend: {
-      colors:{
-        primary:'#FF6363'
-      }
+      colors: {
+        primary: "#030014",
+      },
     },
   },
   future: {
-    hoverOnlyWhenSupported: true
+    hoverOnlyWhenSupported: true,
   },
   plugins: [],
-}
+};
