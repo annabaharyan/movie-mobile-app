@@ -4,9 +4,9 @@ import { placeholder } from "@babel/types";
 
 interface Props {
   placeholder: string;
-  value: string;
+  value?: string;
   onPress?: () => void;
-  onChangeText: (text: string) => void;
+  onChangeText?: (text: string) => void;
 }
 
 const SearchBar = ({ placeholder, value, onPress, onChangeText }: Props) => {
